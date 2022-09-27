@@ -114,4 +114,8 @@ public class Blockchain extends Thread{
     public String getChainName(){
         return name;
     }
+
+    public Long getTime(){
+        return time;
+    }
 }
